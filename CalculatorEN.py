@@ -6,7 +6,7 @@ import time
 #while
 while True:
 	#first line guess will be print
-	num = input("Write any sign of the calculation if the value is equal to zero, the process ends(+, -, /, *, //, **, sqrt, sin, cos, tan, hypot: ")
+	num = input("Write any sign of the calculation if the value is equal to zero, the process ends(+, -, /, *, //, **, sqrt, sin, cos, tan, hypot): ")
 	#exit
 	if num == ("0"):
 		print ("The procces will ends in 3 seconds")
