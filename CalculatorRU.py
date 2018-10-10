@@ -14,7 +14,7 @@ while True:
 		time.sleep(3)
 		break
 	#Проверка операций
-	if num in ("+, -, /, *, //, **, sqrt, sin, cos, tan, hypot, log, log1p, log10, log2, degrees, radians, asin, acon, atan, atan2, sinh, cosh, tanh, asinh, acosh, atanh, gamma, lgamma, Scircle, Ssquad, S, Pcircle, P, Psquad"):
+	if num in ("+, -, /, *, //, **, sqrt, sin, cos, tan, hypot, log, log1p, log10, log2, degress, radians, asin, acon, atan, atan2, sinh, cosh, tanh, asinh, acosh, atanh, gamma, lgamma, Scircle, Ssquad, S, Pcircle, P, Psquad"):
 		#Первая операция(+)
 		if num == '+':
 			x = float(input("Первое число= "))
