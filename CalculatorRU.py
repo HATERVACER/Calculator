@@ -36,7 +36,7 @@ while True:
 			y = float(input("Второе число= "))
 			#Проверка на ошибки в написании
 			try:
-				print((x/y))
+				print((x/y)) 
 			except ZeroDivisionError:
 				print("Вот ты скажи мне, нафига делить на ноль, А?!")
 		#Деление с остатком
