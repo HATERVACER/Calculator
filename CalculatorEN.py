@@ -91,6 +91,105 @@ while True:
 				print((math.hypot(x, y)))
 			except ValueError:
 				print("Don't try lie to me, I'm cool AI!")
+		# Logarithm
+		elif num == 'log':
+			a = float(input("Number: "))
+			print(math.log(a))
+		# Natural logarithm
+		elif num == 'log1p':
+			a = float(input("Number: "))
+			print(math.log1p(a))
+		# Log A on base 10
+		elif num == 'log10':
+			a = float(input("Number: "))
+			print(math.log10(a))
+		# Логарифм A по основанию 2
+		elif num == 'log2':
+			a = float(input("Number: "))
+			print(math.log2(a))
+		# Converts radians to degrees
+		elif num == 'degress':
+			a = float(input("Radians: "))
+			print(math.degrees(a))
+		# Converts degrees to radians.
+		elif num == 'radians':
+			a = float(input("Degress: "))
+			print(math.radians(a))
+		# Arcsine in radians
+		elif num == 'asin':
+			a = float(input("A: "))
+			print(math.asin(a))
+		# Arccosine radians
+		elif num == 'acos':
+			a = float(input("A: "))
+			print(math.acos(a))
+		# Arctangent in radians
+		elif num == 'atan':
+			a = float(input("A: "))
+			print(math.atan(a))
+		# Arctangent in radians, taking into account the quarter in which the point is located
+		elif num == 'atan2':
+			a = float(input("A: "))
+			b = float(input("B: "))
+			print(math.atan2(a, b))
+		# Brings out the hyperbolic sine
+		elif num == 'sinh':
+			a = float(input("A: "))
+			print(math.sinh(a))
+		# Brings out hyperbolic cosine
+		elif num == 'cosh':
+			a = float(input("A: "))
+			print(math.cosh(a))
+		# Brings out hyperbolic tangent
+		elif num == 'tanh':
+			a = float(input("A: "))
+			print(math.tanh(a))
+		# Combs back hyperbolic sine
+		elif num == 'asinh':
+			a = float(input("A: "))
+			print(math.asinh(a))
+		# Brings back hyperbolic cosine
+		elif num == 'acosh':
+			a = float(input("A: "))
+			print(math.acosh(a))
+		# Brings back hyperbolic tangent
+		elif num == 'atanh':
+			a = float(input("A: "))
+			print(math.atanh(a))
+		# Gamma func
+		elif num == 'gamma':
+			a = float(input("A: "))
+			print(math.gamma(a))
+		# Natural logarithm of gamma func
+		elif num == 'lgamma':
+			a = float(input("A: "))
+			print(math.lgamma(a))
+		# Circle area
+		elif num == 'Scircle':
+			R = float(input('Degress: '))
+			print(math.pi - R)
+		# Square area
+		elif num == 'Ssquare':
+			a = float(input('A: '))
+			print(a * a)
+		# Rectangle area
+		elif num == 'S':
+			a = float(input('A: '))
+			b = float(input('B: '))
+			print(a * b)
+		# Perimeter of circle
+		elif num == 'Pcircle':
+			R = float(input('Radius: '))
+			print(6.28318530718 * R)
+		# Perimeter of square
+		elif num == 'Psquare':
+			a = float(input('A: '))
+			print(a * 4)
+		# Perimeter of rectangle
+		elif num == 'P':
+			a = float(input('A: '))
+			b = float(input('B: '))
+			print((a + b) * 2)
 	#if in num haven't current value 
 	else:
 		print("Bad value!")
