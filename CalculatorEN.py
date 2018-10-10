@@ -7,7 +7,7 @@ import time
 while True:
 	#first line guess will be print
 	print("Write any sign of the calculation if the value is equal to zero, the process ends(+, -, /, *, //, **, sqrt, sin, cos, tan, hypot, ")
-	num = input("log, log1p, log10, log2, degress, radians, asin, acon, atan, atan2, sinh, cosh, tanh, asinh, acosh, atanh, gamma, lgamma, Scircle, Ssquad, S, Pcircle, P, Psquad")
+	num = input("log, log1p, log10, log2, degress, radians, asin, acon, atan, atan2, sinh, cosh, tanh, asinh, acosh, atanh, gamma, lgamma, Scircle, Ssquad, S, Pcircle, P, Psquad: ")
 	#exit
 	if num == ("0"):
 		print ("The procces will ends in 3 seconds")
