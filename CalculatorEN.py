@@ -168,7 +168,7 @@ while True:
 		# Circle area
 		elif num == 'Scircle':
 			R = float(input('Degress: '))
-			print(math.pi - R)
+			print(math.pi * R)
 		# Square area
 		elif num == 'Ssquare':
 			a = float(input('A: '))
