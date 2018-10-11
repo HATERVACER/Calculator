@@ -164,10 +164,16 @@ while True:
 		elif num == 'lgamma':
 			a = float(input("A: "))
 			print(math.lgamma(a))
+		# Площадь треугольника
+		elif num == 'Striangle':
+			a = float(input('A: '))
+			b = float(input('B: '))
+			c = float(input('C: '))
+			print((a + b + c) / 2)
 		# Площадь круга
 		elif num == 'Scircle':
 			R = float(input('Радиус: '))
-			print(math.pi - R)
+			print(math.pi * R)
 		# Площадь квадрата
 		elif num == 'Ssquad':
 			a = float(input('A: '))
@@ -190,6 +196,12 @@ while True:
 			a = float(input('A: '))
 			b = float(input('B: '))
 			print((a + b) * 2)
+		# Периметр треугольника
+		elif num == 'Ptriangle'
+			a = float(input('A: '))
+			b = float(input('B: '))
+			c = float(input('C: '))
+			print(a + b + c)
  	# Произойдет если в num не будет значения операции 
 	else:
 		print("Неправильное значение!")
