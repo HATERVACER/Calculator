@@ -165,6 +165,12 @@ while True:
 		elif num == 'lgamma':
 			a = float(input("A: "))
 			print(math.lgamma(a))
+		# Triangle area
+		elif num == 'Striangle':
+			a = float(input('A: '))
+			b = float(input('B: '))
+			c = float(input('C: '))
+			print((a + b + c) / 2)
 		# Circle area
 		elif num == 'Scircle':
 			R = float(input('Degress: '))
@@ -191,6 +197,12 @@ while True:
 			a = float(input('A: '))
 			b = float(input('B: '))
 			print((a + b) * 2)
+		# Perimetr of triangle
+			elif num == 'Ptriangle':
+			a = float(input('A: '))
+			b = float(input('B: '))
+			c = float(input('C: '))
+			print(a + b + c)
 	#if in num haven't current value 
 	else:
 		print("Bad value!")
