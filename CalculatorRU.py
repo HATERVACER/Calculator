@@ -197,7 +197,7 @@ while True:
 			b = float(input('B: '))
 			print((a + b) * 2)
 		# Периметр треугольника
-		elif num == 'Ptriangle'
+		elif num == 'Ptriangle':
 			a = float(input('A: '))
 			b = float(input('B: '))
 			c = float(input('C: '))
